@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url(Yourlieinapril.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: #66565e;
+}
+
+/* Layout */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.up {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.down {
+  text-align: center;
+  height: 70vh;
+}
+
+/* Elements Style */
+h1 {
+  font-size: 4.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: right;
+  padding-right: 3.2rem;
+}
+.clock-f {
+  text-align: right;
+  margin-top: 2rem;
+}
+.clock {
+  max-width: 14rem;
+}
+
+.conversion {
+  margin-left: 2.4rem;
+  height: 7rem;
+}
+
+.year {
+  background: none;
+  border: none;
+  border-bottom: 4px solid #683931;
+  font-family: inherit;
+  color: inherit;
+  font-size: 5rem;
+  padding: 1.4rem;
+  width: 18rem;
+  height: 7rem;
+  text-align: center;
+  display: block;
+}
+.month {
+  border: none;
+
+  background: none;
+  border-bottom: 4px solid #683931;
+  font-family: inherit;
+  color: inherit;
+  font-size: 5rem;
+  padding: 1.4rem;
+  width: 12rem;
+  height: 7rem;
+  text-align: center;
+  display: block;
+}
+
+.day {
+  border: none;
+  background: none;
+  border-bottom: 4px solid #683931;
+  font-family: inherit;
+  color: inherit;
+  font-size: 5rem;
+  padding: 1.4rem;
+  width: 12rem;
+  height: 7rem;
+  text-align: center;
+  display: block;
+}
+
+.btn {
+  border-radius: 7px;
+  border: none;
+  background-color: #ffc4ca;
+  color: #826d72;
+  font-size: 2.4rem;
+  font-family: inherit;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #f2d9dc;
+  transition: all 377ms;
+}
+
+.weeks {
+  font-size: 4.8rem;
+  margin-bottom: 7rem;
+  height: 3rem;
+}
+.days {
+  color: #826d72;
+  font-weight: 500;
+  height: 3rem;
+}
+.words {
+  font-size: 4rem;
+  font-weight: 300;
+}
